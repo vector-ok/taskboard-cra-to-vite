@@ -1,0 +1,8 @@
+.activity { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 10px; }
+.activity__title { font-size: 12px; font-weight: 600; margin: 0; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); }
+.activity__empty { font-size: 11px; color: #404a56; margin: 0; }
+.activity__list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 9px; }
+.activity__item { display: grid; grid-template-columns: 8px 1fr; gap: 4px 7px; font-size: 11px; }
+.activity__dot { width: 5px; height: 5px; border-radius: 50%; background: var(--accent); margin-top: 5px; }
+.activity__text { color: var(--text); line-height: 1.4; }
+.activity__time { grid-column: 2; color: #5c6672; font-size: 10px; }

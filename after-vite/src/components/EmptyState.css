@@ -1,0 +1,3 @@
+.empty { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; padding: 22px 8px; color: #404a56; }
+.empty__icon { font-size: 17px; }
+.empty__label { font-size: 11px; margin: 0; }

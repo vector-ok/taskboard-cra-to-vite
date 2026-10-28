@@ -1,0 +1,14 @@
+.stats {
+  display: grid; grid-template-columns: 110px 1fr 110px; gap: 20px;
+  align-items: center; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; padding: 14px 18px;
+}
+.stats__summary { display: flex; flex-direction: column; gap: 2px; }
+.stats__number { font-size: 22px; font-weight: 650; letter-spacing: -0.02em; }
+.stats__label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.stats__bars { display: flex; flex-direction: column; gap: 6px; }
+.stats__row { display: grid; grid-template-columns: 82px 1fr 24px; gap: 10px; align-items: center; }
+.stats__row-label { font-size: 11px; color: var(--muted); }
+.stats__track { height: 5px; background: var(--surface-2); border-radius: 3px; overflow: hidden; }
+.stats__fill { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+.stats__row-value { font-size: 11px; color: var(--muted); text-align: right; }
